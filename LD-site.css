@@ -1,0 +1,36 @@
+h1{
+color: black;
+font-family: Georgia, serif;}
+
+.navbar {
+    font-family: verdana, sans-serif;
+    font-size: small;
+    background-color: white;
+    text-align: left;
+}
+
+.about { 
+color: black;
+font-family: verdana, sans-serif;
+font-size:small;
+max-width: 350px;
+}
+
+img {
+    max-width: 100%}
+
+.spider-body {
+    color: white;
+    background-color: #380000;
+    font-family: verdana, sans-serif;
+
+}
+
+.footer {
+    color: black;
+    font-family: verdana, sans-serif;
+    font-size: small;
+    background-color: white;
+    text-align: center;
+
+}
