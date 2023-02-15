@@ -1,29 +1,44 @@
 h1{
 color: black;
-font-family: Georgia, serif;}
-
-.navbar {
-    font-family: verdana, sans-serif;
-    font-size: small;
-    background-color: white;
-    text-align: left;
+font-family: Georgia, serif;
+padding-left: 10px;
+font-size: xx-large;
 }
+
 
 .about { 
 color: black;
 font-family: verdana, sans-serif;
 font-size:small;
 max-width: 350px;
+padding-left: 10px;
 }
 
 img {
-    max-width: 100%}
+    max-width: 100%
+}
 
 .spider-body {
-    color: white;
-    background-color: #380000;
-    font-family: verdana, sans-serif;
+    /* The image used */
+    background-image: url("images/news.jpg");
+    min-height: 200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+/*parallax2 will have the same format*/
+.spider-body2 {
+    background-image: url("images/spider-web.jpg");
+    min-height: 300px;
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer {
