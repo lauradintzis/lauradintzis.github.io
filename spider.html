@@ -5,25 +5,8 @@
     <meta charset="uft-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="LD-site.css">
+    <script src="https://kit.fontawesome.com/4f754a61fe.js" crossorigin="anonymous"></script>
 </head>
-
-<style>
-    a:link {
-      color: black;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:visited {
-      color: black;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:hover {
-      color: #ff8c00;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    </style>
 
 <body>
     <h1>Spider News</h1>   
@@ -33,7 +16,7 @@
             about
         </a>
         <a class="navbar-item" href="resume.html">
-            resume
+            resum&eacute;
             </a>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link is-arrowless">
@@ -73,23 +56,71 @@
           <a class="navbar-item" href="spider.html">
             spider news
           </a>
-        </div>
       </div>
       <div class="navbar-end"></div>
       </nav>
-    
 
-    <div class="spider-body"></div>
+<div class="columns">
+    <div class="column is-half">
+      <h2><b>Spiders: foe or friend?</b></h2>
+      <p>Spiders are widely hated and feared, despite being essential members of our ecosystems. Arachnophobia, the uncontrollable fear of spiders, is one of the most common animal-specific phobias. Social media videos of spiders have gone viral, getting views into the millions, with comments like &ldquo;run&rdquo;, &ldquo;leave your home&rdquo;, reacting to spiders no bigger than a fingernail. But why do spiders illicit such strong reactions, even from behind the safety of our phone screens?
+        <br>
+        <br>
+        In psychology and neurology, it is still not understood why humans have such strong reactions of fear and disgust to spiders.
+        
+      <h2><b>The Data</b></h2>
+       <p>In 2022 Stefano Mammola and others published a global database of online news articles from 2010 to 2020, reporting on encounters between spiders and humans. It collects information on the article&#39;s content, such as the spider event in the news article, whether photographs were present, identification errors, sensationalized language, and the encounter result&mdash;bite or deadly bite. The title of the article, the title of the newspaper, location, and distribution type were also collected about a news article itself.
+        <br>
+        <br>
+        The database covers 6,205 news articles covering 5,348 unique news articles from 81 countries in 40 languages. The database refers to 211 identified and unidentified spider species and 2,644 unique encounters between spiders and humans. I downloaded the dataset in the available Excel file format. I then converted it into a CSV file. All cleaning and manipulations were done in Excel and OpenRefine. These edits were mostly to make the data more readable when put into visualizations, such as changing 1s and 0s to corresponding yes and no. Some coordinates needed to be altered, correcting for points located in the ocean when they were meant to be on land.
+      <br>  
+      <br>
+        The Map was created using ArcGIS and Ersi WorldPop population density data layer. All of the other data vizualizations were made using Flourish.
+        <br>
+      <h2>Sources</h2>
+      <p>The published paper and spider news database can be found on <i>Nature</i> through this <a href="https://doi.org/10.1038/s41597-022-01197-6"><u>doi link.</u></a></p>
+      </p>
+     </div>
 
-    <div style="height:200px; background-color: black; text-align: center; color: white; font-size: x-large; font-family: Georgia, serif; padding-top: 40px;" >
-   "Mass media plays an important role in the construction and circulation of risk perception associated with animals. <br> Widely feared groups such as spiders frequently end up in the spotlight of traditional and social media."
+  <div class="column">
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/144D7JoRwms?clip=UgkxgCRwda-qt4sA93KFVGjTBQ3q44tqSy7j&amp;clipt=ELm8IRj3oSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+    <p class="content-warning" style="max-width: 500px; padding-left: 5px; font-size: 14pt;"><b>Content warning:</b> There will be photos of spiders, and social media posts with video and images of spiders.
+      <div class="buttons">
+        <a href="spider-1.html">
+          <button class="button">
+            <span class="icon">
+              <i class="fa-regular fa-arrow-right fa-2xl"></i>
+        </span>
+        </button>
+        </a>
+      </div>
+      <div class="buttons">
+        <a href="spider-1.html">
+          <button class="button">
+            <span class="icon">
+              <i class="fa-regular fa-arrow-right fa-2xl"></i>
+        </span>
+        </button>
+        </a>
+      </div>
+      <div class="buttons">
+        <a href="spider-1.html">
+          <button class="button">
+            <span class="icon">
+              <i class="fa-regular fa-arrow-right fa-2xl"></i>
+        </span>
+        </button>
+        </a>
+      </div>
+
+    </p>
+   
+  </div>
+  <div class="column">
+
     </div>
-
-    <div class="spider-body2"></div>
-    <div style="height: 600px; background-color: black; text-align: center; color: white; font-size: x-large; font-family: Georgia, serif; padding: 20px;" >
-    Authors compiled a global database on the online newspaper coverage of human-spider <br>encounters over the past ten years (2010 to 2020). <br>This database includes information about the location of each human-spider encounter reported in the news article and a quantitative characterisation of the content's location, presence of photographs of spiders and bites, number and type of errors, consultation of experts, and a subjective assessment of sensationalism. <br> In total, they collected 5348 unique news articles from 81 countries in 40 languages. <br> <br>Mammola, S., Malumbres-Olarte, J., Arabesky, V. et al. An expert-curated global database of online newspaper articles on spiders and spider bites. Sci Data 9, 109 (2022). https://doi.org/10.1038/s41597-022-01197-6
 </div>
-
 
     <div class="footer">
         <p>laura.dintzis@gmail.com | 2023 | This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
