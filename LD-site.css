@@ -1,36 +1,56 @@
 h1{
 color: black;
 font-family: Tahoma, sans-serif;
-padding-left: 10px;
+padding-left: 15px;
 font-size: 50pt;
 }
-
-
 
 h2{
 color: black;
 font-family: Monaco, monospace;
-padding-left: 30px;
+padding-left: 20px;
 padding-top: 15px;
 font-size: 18pt;
 }
 
-p{padding-left: 30px;
+p {padding-left: 20px;
   padding-right: 20px;
   color: black;
+  line-height: 1.7;
   font-size: 14pt;
+}
+
+h3 {
+font-family: Monaco, monospace;
+font-size: 11;
+padding-left: 20px;
+padding-bottom: 10px;
 }
 
 
 .about { 
 color: black;
-font-family: Tahoma, sans-serif;
-font-size:small;
-max-width: 600px;
+max-width: 480px;
+font-size: 12pt;
+}
+
+.menu {
+  position: sticky;
+  display: inline-block;
+  vertical-align: top;
+  max-height: 100vh;
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  padding-top: 15px;
 }
 
 .access {
     max-width: 1000px;
+}
+
+.navbar {
+  padding-left: 10px;
 }
 
 a.navbar-item:hover {color: #ff8c00}
@@ -52,12 +72,13 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-
-
+.citations{
+  font-size: 10pt;
+}
 .footer {
     color: black;
     font-family: verdana, sans-serif;
-    font-size: small;
+    font-size: 10pt;
     background-color: white;
     text-align: center;
 }
