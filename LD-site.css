@@ -11,6 +11,7 @@ font-family: Monaco, monospace;
 padding-left: 20px;
 padding-top: 15px;
 font-size: 18pt;
+font-weight: bold;
 }
 
 p {padding-left: 20px;
@@ -27,6 +28,39 @@ padding-left: 20px;
 padding-bottom: 10px;
 }
 
+.cv {
+  font-family: Monaco, monospace;
+  font-weight: bold;
+  font-size: 18pt;
+  padding-left: 20px;
+  padding-bottom: 0;
+}
+
+.plain-h {
+font-family: Tahoma, sans-serif;
+font-weight: bold;
+font-size: 14pt;
+padding-left: 20px;
+color: black;
+padding-bottom: 0px;
+}
+
+.cv-hh {
+  font-family: Tahoma, sans-serif;
+  font-size: 12pt;
+  text-decoration-line: underline;
+  padding-left: 20px;
+  color: black;
+}
+
+.cv-p {
+font-family: Tahoma, sans-serif;
+font-size: 12pt;
+padding-left: 40px;
+text-indent: 15px each-line hanging;
+color: black;
+line-height: 1.8;
+}
 
 .about { 
 color: black;
@@ -45,9 +79,6 @@ font-size: 12pt;
   padding-top: 15px;
 }
 
-.access {
-    max-width: 1000px;
-}
 
 .navbar {
   padding-left: 10px;
