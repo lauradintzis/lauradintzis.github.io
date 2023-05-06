@@ -1,30 +1,14 @@
 <!doctype html>
+<html lang="en">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>MLIS issue paper</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="LD-site.css">
     <script src="https://kit.fontawesome.com/4f754a61fe.js" crossorigin="anonymous"></script>
 </head>
-
-<style>
-    a:link {
-      color: black;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:visited {
-      color: black;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:hover {
-      color: #ff6347;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    </style>
-
 <body>
   <h1>issue paper</h1> 
    
@@ -61,51 +45,140 @@
               </a>
           </div>
       </div>  
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link is-arrowless">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link is-arrowless">
           accessibility
-        </a>
+          </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item" href="access-state.html">
               accessibility statement
             </a>
-            <a class="navbar-item" href="ghtemplate.html">
-              GitHub Template
+            <a class="navbar-item" href="https://github.com/dintzis/dintzis.github.io" target="_blank">
+              GitHub
             </a>
             </div>
+        </div>
       </div>
-        <a class="navbar-item" href="spider.html">
-          spider news
-        </a>
-      </div>
-    </div>
     <div class="navbar-end"></div>
-      
-    </nav>
+  </nav>
+  
     <h2>Issue Statement</h2>
     <p>The finding aid has existed as a benchmark for access in archives for as long as archives have existed in the United States. This attention to the finding aid as an internal tool for archivists to describe and organize information, and as a user interface to connect people to materials has limited archivists from actually addressing problems of access. As archives have moved online with the rest of the world, the finding aid's faults were more fully exposed, failing to meet the capabilities the Internet offered. I propose principles to guide archivists publishing archival content online. These principles will address problems of power, digital literacy, and participation that have always effected access to archival materials, while hopefully moving ideas of access in the profession in a new direction. 
      </p>
     
+<br><br><br>
+
+
      <div class="columns">
       <div class="column">
+        <h2>Definitions of Access: Examining Digital Archival Description</h2>
+        <h3 class="plain-h" id="introduction">Introduction</h3>
+        <p>The Internet has become the primary source of access to collections held at museums, archives, and libraries. In archives specifically, whether they are a digital archive with born-digital materials or digital surrogates, and no physical location, or a physical repository with partial digital collections or digital descriptions of collections, the main tool for online access is still the finding aid. The Society of American Archivists defines access as “the ability to locate relevant information through the use of catalogs, indexes, finding aids, or other tools.”<sup><a href="#1">1</a></sup> Additionally, the International Council of Archives' Dictionary of Archival Terminology also defines access through the finding aid as “the availability of records/archives for consultation as a result both of legal authorization and the existence of finding aids.”<sup><a href="#2">2</a></sup></p>
+        <br>
+        <br>
+        <p>This centrality of the finding aid in the definition of access has limited how archives have moved from operating as physical information centers to digital ecosystems by its attempt to act as both an internal tool for archivists, and an external tool for users. When the finding aid was placed online, it not only became more difficult to use by users, who were now navigating it alone, but also as a system to adequately structure description for computers to read. The EAD document type definition (DTD) in XML became the solution to make archival data computer readable; and the resulting XSLT, XTF, or HTML markup that was displayed to internet users mirrored a paper finding aid.<sup><a href="#3">3</a></sup> Elizabeth Yakel expressed fears that because the finding aid's encoding process is an add-on, at the end of the descriptive process, it would be impossible to re-envision with new technology.<sup><a href="#4">4</a></sup> These fears were realized when EAD standardized structure, rather than content, and effectively limited the way archivists could communicate collection information. As Gregory Wiedeman puts it, this “led archivists to prioritize listing materials rather than addressing the broader challenges that users face accessing and using material…[and] transcend the barrier of the reading room.”<sup><a href="#5">5</a></sup></p>
+        <br>
+        <br>
+        <p>The duality of the finding aid as both a user interface that connects people to resources, and as a conceptual framework of how access is performed in the profession, perpetuates an idea of neutrality and objectivity of the archivist, but is unsuccessful at representing the relationships between archivist, user, and subject. There is still an absence of guidelines for access that represent how archives need to adapt to support online environments, and evolve to become more equitable spaces where the past and the present merge into one conversation about the use and activation of resources. This paper will use post-custodial and feminist frameworks to form principles to guide the creation of supplementary digital content that is necessary for digital archives and digital archival description.</p>
+        <br><br>
+        <h3 class="plain-h" id="literature">Literature Review</h3>
+        <p>In the literature pertaining to the online finding aid, topics of usability and discoverability dominate. Studies on usability make recommendations on display and web design based on actual user testing, or systems analysis of interfaces and search functionality.<sup><a href="#6">6</a></sup> Most notably work by Daines and Nimer, who made recommendations on single-level display for online finding aids,<sup><a href="#7">7</a></sup> and Anne Gilliland's creation of evaluation criteria to assess the adherence to ISAD(G) and integrity of descriptive data in the Online Archive of California.<sup><a href="#8">8</a></sup> Within issues of discovery, discussions revolve around technical solutions to optimize both internal collection search processes, and searches performed in Internet browsers. Some of the solutions explored are the online archival catalog, utilizing the Semantic Web and Linked Data, and simply linking finding aids to Wikipedia.<sup><a href="#9">9</a></sup> It is almost important to note the decades of development and implementation of content standards and various controlled vocabularies to improve the largely unstructured data in finding aids.</p>
+        <br><br>
+        <p>Understanding all of these technical and data-based methods of putting finding aids online is integral for archivists who may need to adapt their technical skill sets to match the fast rate that technology is changing. These solutions also speak to the context of digital archival resources within the large digital ecosystem of the Internet. If no one can search and retrieve the website, the resources, the descriptions, or the digital surrogates—everything else becomes less relevant. However, despite their good intent, the design of these technical solutions often disregard the social context of access in digital spaces; treating collection records and digital surrogates as innately equitable, or understandable and wide-reaching, now that they are online.</p>
+        <br><br>
+        <p>In my studies in archival science and digital humanities, the questions I continued to ask about archival access were: how do tools of access, like finding aids, support relationship building between archivists and users? How can multiple viewpoints and participation in record creation be represented? How do finding aids empower users to activate, mobilize, and create with archival records? I began to see that the finding aid fell short in every answer. The answers to these questions may not be found inside this highly technical literature, but rather in community-based archiving practices, in affect theory, in data feminism, decolonial archival praxis, and the digital humanities. I'm choosing to write about archival work that does not center the finding aid and its technical expansion as a tool or concept of access, but instead involves the construction of supplementary digital content that begins to divest from the finding aid.</p>
+        <br><br>
+        <h3 class="plain-h" id="ontology">Ontological Framework and Principles of Practice</h3>
+        <p>The approach to this issue comes from post-custodial thinking, anti-colonial praxis, and data feminism. Christian Kelleher describes post-custodial work, as a practice of “decoupling the value of archival records” from the repository, and reprioritizing the context of records creation, rather than the records content.<sup><a href="#10">10</a></sup> The finding aid was an exercise in standardizing structure wholly dependent on the context of archival professionalism, singular authority, and singular process, which post-custodial practice counters by sharing the authority, often through the creation of digital surrogates, and expanded provenance where acknowledgement of community, society, and subjects of a record become co-creators, with ownership. Daniela Agostinho adds that, “post-custodial thinking recognizes that collecting and preserving records is no longer enough to fulfill archival obligations.”<sup><a href="#11">11</a></sup> Meaning, records alone do not create access to users, let alone connections, purpose, or understanding.</p>
+        <br><br>
+        <p>Speaking to the process of knowledge creation, the temporal framework of the slow archive, introduced by Kimberly Christen and Jane Anderson, emphasizes slowing down to make space for attention to how knowledge is produced, circulated, and exchanged through relationships.<sup><a href="#12">12</a></sup> Christen and Anderson remind us that the history of collecting is the history of colonialism, and based on versions of access and description that prioritize the power and ownership of the author or property holder.<sup><a href="#13">13</a></sup> The finding aid is a professional tool in the archival workflow that is used to circulate materials and determine cultural authority and ownership; but it often obscures the archival process that accomplishes this.<sup><a href="#14">14</a></sup> To create new archival systems and practices is to constantly contextualize the work archivists do, keeping in mind the colonial history, and places of privilege these practices were created from. The authors argue that slowing down is the only way to build archives that stand for accountability, engagement, relationality, and reciprocity. Christen and Anderson present the content management system Murkutu, an open-source platform showing what technology design looks like when honoring these principles.</p>
+        <br><br>
+        <p>Parallel to these conversations is one on a feminist ethics of care. Michelle Caswell and Marika Cifor argue that archivists enter into relationships with the record creator, the record subject, the user, and larger communities, and have an affective responsibility to use radical empathy when working.<sup><a href="#15">15</a></sup> This idea recognizes that access is not suited to one format, method, or idea, but requires multiple ways of centering people in archival work, and making all steps in the process of describing and displaying resources with them in mind. It is similar to the call Shaowen Bardzell makes in systems design, where starting first and foremost with the perspective of the "marginal user" ensures social inequality is being considered.<sup><a href="#16">16</a></sup> Failing to recognize this when designing digital archives or digital description again limits nuanced and imaginative notions of access.<sup><a href="#17">17</a></sup></p>
+        <br><br>
+        <p>It is exactly this flux of meaning and contexts that defines archival work that the finding aid is incapable of handling. It is a static object that only captures the context of the record in relation to other records, and provenance of the archivists choosing. The finding aid rarely, if ever, reaches a description of the contemporary context of those who created it, arrange, describe it, house it, and use it. To recognize this requires that principles of affect, relationship building, and care are applied to the systems of access archivists create.</p>
+        <br><br>
+        <p>On a similar trajectory, data feminism uses affect as a way to intervene when people within records have been left out of the design process, when the people who are affected by the collection and preservation of materials and metadata are only treated as resources to be extracted.<sup><a href="#18">18</a></sup> Data feminism is acutely aware of the rhetorical power held by those who describe and present information.<sup><a href="#19">19</a></sup> A data feminist approach asks of this power, how can activating emotion, rather than distancing it from the work, leverage it within description to help people learn, remember, and communicate with digital records?<sup><a href="#20">20</a></sup> Sandra Harding calls this denial of neutrality and objectivity standpoint theory, in which we do not sink in “absolute relativism” but work towards truth, by disclosing the standpoint of the designer, or in this context, the archivist.<sup><a href="#21">21</a></sup> Distinguishing and acknowledging multiple points of knowledge creation in the record is not common archival practice, even in participatory projects,<sup><a href="#22">22</a></sup> and it is very difficult to accomplish through the finding aid's hierarchical structure. This adds to a decolonial praxis and a feminist ethics of care's emphasis on affect and relationships, by asking archivists to be reflexive in combination with other principles that acknowledge structural power differentials such as justice, co-liberation, and equity.</p>
+        <br>
+        <br>
+        <p>These three frameworks in conversation ask us to imagine better archival futures, and from them I have distilled a set of shared principles that archivists should approach access through: engagement, reflexivity, emotion, accountability, shared-authority, justice, and empathy.<sup><a href="#23">23</a></sup> These principles closely align to Michelle Caswell's 5 principles of community archives, and as illustrated through Caswell's chapter and the literature above, it is these archives who are leading the way in reimagining what digital access looks like with cultural heritage.</p>
+        <br><br>
+        <p>What I'd like to add to this conversation is a way of using these principles to work toward remaking methods and systems of archival description and access through the creation of supplementary digital content that acts as guides for collections, builds relationships, aids in digital literacy, and curates how resources from the collection are being used. Digital content to guide users in various ways through websites and digital collections has picked up momentum in recent years, mostly led by librarians and digital humanists. This work is often not prioritized by archivists, unless their role is specifically in instruction or primary source literacy. Of course, not all of this content abides to a set of principles, but it begins the process of designing more intentional work in the future. Access approached with these principles in mind will hopefully create content that gives respect and acknowledging the subjects of records, creates room for institutions to reckon with colonial complicity and other forms of violence and surveillance,<sup><a href="#24">24</a></sup> form reciprocal and compensated relationships through budget allocation and project building, invites more people in, other than just academic scholars in order to collaborate, share knowledge, and learn, and lastly to provide pathways for understandable digital design.</p>
+        <br><br>
+        <h3 class="plain-h" id="principles">Principles in Action</h3>
+        <p>Digitization and online environments often promise increased access and usability, but the social structures that hinder engagement and establish power inequities are still present in the information architecture of the internet. These environments create new layers of meaning through the choices web designers and system designers make for accessing digital content, and the effects of these decisions must be carefully evaluated. Digital archives and open access movements still do not fully consider perspectives other than Western, cis-hetero, white, modes of curation and design, where access can be synonymous to being surveilled and controlled by anyone who is part of a group marginalized or recorded against their will.<sup><a href="#25">25</a></sup> This is why there is a focus on digital description as a whole, not just digital archives with fully available content in this paper.</p>
+        <br><br>
+        <p>The essential next steps after digitization in any capacity is to share with users what it means to interact with the information architecture of online collections,<sup><a href="#26">26</a></sup> and share ways users can participate and learn with the materials. Creating content that explains the choices archivists have made in digital environments means that access is contextualized, and can set expectations for users, while also creating a path to channel the principles discussed previously. These tools can look like curated collection guides, zines, blogs, and oral histories as participatory projects, and digital toolkits that share knowledge about the archival process, preservation, and resources.</p>
+        <br><br>
+        <p>The Digital Library of America assembled groups of teachers from all subjects, age groups, and backgrounds to look at materials and give opinions on how things should be organized for educators, tagging age groups that certain materials are appropriate for. The output was not a static record, but supplemental archival content called 'primary source sets', small sets of selected items that could be integrated into lesson plans and courses.<sup><a href="#27">27</a></sup> Educators could also add their own materials that were relevant to their town or their students to make the learning more applicable to their own lives.<sup><a href="#28">28</a></sup> The Digital Transgender Archive also curates primary sources sets, as well as starter guides, race and ethnicity research guides, transgender and queer histories, and search tips, all presented on their website as infrastructure that supports casual visitors and researchers.<sup><a href="#29">29</a></sup> These are examples of engagement on large and small scales, but both speak to the opportunity this type of supplemental content offers to orient an archive's position as non-neutral and non-objective stewards of information. Creating this content means contending with where an archive and the archivists who work there stand in the social fabric.</p>
+        <br><br>
+        <p>Participatory projects like zines, blogs, oral histories, and digital exhibitions, or annotations that appear when records are accessed, can support empathy, reflexivity, emotion, and shared-authority in supplement content. The See You at the Paradise zine was created by researchers and community members on Norfolk Island focusing on the Kingston and Arthur's Vale Historic Area as a way to strengthen voices marginalized by the historic record.<sup><a href="#30">30</a></sup> Zines therefore are engaging ways to reach more people, but also serve as a disruption to institutional authority. Digital exhibits using Scalar, Omeka, or any other web-publishing platforms can also facilitate community-led participation, highlight collection materials, or educate users on digital literacy. For instance, Michaela Ullmann, a librarian at University of Southern California, has done this using Scalar to create a toolkit for students using primary source materials.<sup><a href="#31">31</a></sup> This is beneficial because it meets students with empathy and teaches them about the limits of archives and the privileged history of collecting. Other examples of participatory archival records are Michelle Caswell's work in the South Asian American Digital Archive where digital projects often use oral history, art, walking tours, as well as data visualization through which to explore the archive.<sup><a href="#32">32</a></sup> Similarly, the June L. Mazer Lesbian Archive integrates oral histories with community members as part of their finding aids and collection materials. Both of these community archives remix and layer archival materials with other content that honors emotion and personal memory from many perspectives in the archival record.</p>
+        <br><br>
+        <p>In order for accountability to be fully practiced, archival processes, policy, and decisions need to be more visible rather than privileged to large institutions or for those who have completed graduate degrees. In some institutions collection development policy is made public, explaining what currently is held by an institution and where they are looking to grow. Post-2020, when predominantly white institutions rushed to enact diversity, equity, and inclusion initiatives, adjusting collection development policies was one place they started. Expanding upon this, processing and preservation guides, as well as administrative hierarchy and workflows should also be made public. These resources as digital toolkits can provide smaller institutions inspiration for how to manage and preserve their records, it can also open paths of access that help form partnerships and collaborations. UCLA's Digital Library Program currently has a Digital Library Program Toolkit (DLPTK) that is meant for exactly that: “to serve as a reference for other institutions while planning and implementing digital projects.”<sup><a href="#33">33</a></sup> This not only engages other archives, but enables others to give feedback on the workflow, and the work the DLPTK has produced.</p>
+        <br><br>
+        <h3 class="plain-h" id="conclusion"></h3>
+        <p>In my own archival practice, I will advocate for additional content to accompany digitized archival resources and digital representations of archival collections to be included in a processing plan or scope of a grant. Part of this involves promoting a budget that prioritizes compensated collaborative work with community members, artists, and activists on participatory projects within the archive. Through these actions, I will strive to make content that is guided by engagement, reflexivity, emotion, accountability, shared-authority, justice, and empathy. Changing conceptions of access in the archival profession will be a long process, one based on deprofessionalization, skill-sharing, and efforts to make people more comfortable using digital technology; but it is a process that is worthwhile to create the next generations of archivists who will reflect and question the way things have been done, and imagine and build expansive and inclusionary digital infrastructure for archival resources.</p>
+        <br><br>
         </div>
+
       <div class="column is-narrow">
           <aside class="menu">
             <ul class="menu-list" aria-label="side navigation">
-              <li><a href="#">Introduction</a></li>
-              <li><a href="#">Literature Review</a></li>
-              <li><a href="#">Ontological Frameworks and Principles</a></li>
-              <li><a href="#">Principles in Action</a></li>
-              <li><a href="#">Conclusion</a></li>
-              <li><a href="#">References</a></li>
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#literature">Literature Review</a></li>
+              <li><a href="#ontology">Ontological Frameworks and Principles</a></li>
+              <li><a href="#principles">Principles in Action</a></li>
+              <li><a href="#conclusion">Conclusion</a></li>
+              <li><a href="#references">References</a></li>
             </ul>
           </aside>
         </div>
   </div>
 
+<article class="message is-dark" id="references">
+  <div class="message-header">
+      References
+  </div>
+    <div class="message-body">
+      <ol id="l1" style="padding-left: 20px; font-size: 10pt;">
+        <li data-list-text="1."><p class="citations" id="1">“SAA Dictionary: Access,” accessed March 27, 2023, https://dictionary.archivists.org/entry/access.html.</p></li>
+        <li data-list-text="2."><p class="citations" id="2">International Council on Archives - Committee on Best Practices and Standards Working Group on Access, “Principles of Access to Archives - Glossary” (Adopted by the AGM on August 24, 2012) http://www.ica.org/13619/toolkits-guides-manuals-and-guidelines/principles-of-access-to-archives.html.</p></li>
+        <li data-list-text="3."><p class="citations" id="3">Gregory Wiedeman, “The Historical Hazards of Finding Aids,” <i>The American Archivist</i> 82, no. 2 (Fall/Winter 2019): 402.</p></li>
+        <li data-list-text="4."><p class="citations" id="4">Elizabeth Yakel, “Archival Representation,” <i>Archival Science</i> 3 (2003): 24.</p></li>
+        <li data-list-text="5."><p class="citations" id="5">Gregory Wiedeman, “The Historical Hazards of Finding Aids.” <i>The American Archivist</i> 82, no. 2 (Fall/Winter 2019): 383.</p></li>
+        <li data-list-text="6."><p class="citations" id="6">Heather MacNeil and Jennifer Douglas, “Generic Evolution and the Online Archival Catalogue,” <i>Archives and Records</i> 36, no. 2 (July 3, 2015): 107-27, https://doi.org/10.1080/23257962.2015.1070094; Elizabeth Hopwood, “Discoverability and the Problems of Access: Thoughts on Responsive Digital-Research Interfacing,” <i>American Periodicals</i> 26, no. 1 (2016): 7-9; Amy Hildreth Chen, “Finding the Modernist Archive: Why UX Matters,” <i>Modernism/Modernity Print Plus,</i> (August 25, 2018): 1-10. https://modernismmodernity.org/forums/posts/finding- modernist-archive; Rachel Walton, “Looking for Answers: A Usability Study of Online Finding Aid Navigation,” <i>The American Archivist</i> 80, no. 1 (March 2017): 30-52.</p></li>
+        <li data-list-text="7."><p class="citations" id="7">J. Gordon Daines and Cory L. Nimer, “Re-Imagining Archival Display: Creating User-Friendly Finding Aids,” <i>Journal of Archival Organization</i> 9, no. 1 (January 2011): 4-31, https://doi.org/10.1080/15332748.2011.574019.</p></li>
+        <li data-list-text="8."><p class="citations" id="8">Anne J. Gilliland-Swetland, "Evaluation Design for Large-Scale, Collaborative Online Archives: Interim Report of the Online Archive of California Evaluation Project," <i>Archives and Informatics</i> 12 (1998): 177.</p></li>
+        <li data-list-text="9."><p class="citations" id="9">Karen F. Gracy, “Archival Description and Linked Data: A Preliminary Study of Opportunities and Implementation Challenges,” <i>Archival Science</i> 15, no. 3 (September 1, 2015): 239-94. https://doi.org/10.1007/s10502-014-9216-2; Ashleigh Hawkins, “Advocating for Linked Archives: The Benefits to Users of Archival Linked Data,” in <i>Proceedings of Linked Archives International Workshop 2021,</i> 1-12, 2021. http://ceur-ws.org/Vol-3019/LinkedArchives_2021_paper_6.pdf; Jason A. Clark, Helen K.R. Williams, and Doralyn Rossmann, “Wikidata and Knowledge Graphs in Practice: Using Semantic SEO to Create Discoverable, Accessible, Machine-Readable Definitions of the People, Places, and Services in Libraries and Archives,” ed. Bonnie Lawlor, <i>Information Services & Use</i> 42, no. 3-4 (December 16, 2022): 377-90, https://doi.org/10.3233/ISU-220171.</p></li>
+        <li data-list-text="10."><p class="citations" id="10">Christian Kelleher, “Archives Without Archives: (Re)Locating and (Re)Defining the Archive Through Post-Custodial Praxis,” <i>Journal of Critical Library and Information Studies</i> 1, no. 2 (July 7, 2017): 1. https://doi.org/10.24242/jclis.v1i2.29.</p></li>
+        <li data-list-text="11."><p class="citations" id="11">Daniela Agostinho, “Archival Encounters: Rethinking Access and Care in Digital Colonial Archives,” <i>Archival Science</i> 19, no. 2 (June 1, 2019): 145. https://doi.org/10.1007/s10502-019-09312-0.</p></li>
+        <li data-list-text="12."><p class="citations" id="12">Kimberly Christen and Jane Anderson, “Toward Slow Archives,” <i>Archival Science</i> 19, no. 2 (June 1, 2019): 87.</p></li>
+        <li data-list-text="13."><p class="citations" id="13">Christen and Anderson, “Towards Slow Archives,” 98.</p></li>
+        <li data-list-text="14."><p class="citations" id="14">Christen and Anderson, “Towards Slow Archives,” 98.</p></li>
+        <li data-list-text="15."><p class="citations" id="15">Michelle Caswell and Marika Cifor, "From Human Rights to Feminist Ethics: Radical Empathy in the Archives," <i>Archivaria</i> 81 (2016): 33. muse.jhu.edu/article/687705.</p></li>
+        <li data-list-text="16."><p class="citations" id="16">Shaowen Bardzell, “Feminist HCI: Taking Stock and Outlining an Agenda for Design” (CHI: HCI For All, Atlanta, GA, 2010).</p></li>
+        <li data-list-text="17."><p class="citations" id="17">Agostinho, “Archival Encounters,” 153.</p></li>
+        <li data-list-text="18."><p class="citations" id="18">Catherine D'Ignazio and Lauren F. Klein, "Bring Back the Bodies," in <i>Data Feminism,</i> Strong Ideas Series (Cambridge, Massachusetts: The MIT Press, 2020), 17-18.</p></li>
+        <li data-list-text="19."><p class="citations" id="19">Catherine D'Ignazio and Lauren F. Klein, "On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints," in <i>Data Feminism,</i> Strong Ideas Series (Cambridge, Massachusetts: The MIT Press, 2020), 5.</p></li>
+        <li data-list-text="20."><p class="citations" id="20">D'Ignazio and Klein, “On Rational, Scientific, Objective Viewpoints,” 5.</p></li>
+        <li data-list-text="21."><p class="citations" id="21">Sandra Harding, “'Strong Objectivity': A Response to the New Objectivity Question,” <i>Synthese</i> 104 (1995): 331-49.</p></li>
+        <li data-list-text="22."><p class="citations" id="22">Greg Bak, et al., “Knowledge Organization as Knowledge Creation: Surfacing Community Participation in Archival Arrangement and Description,” <i>Knowledge Organization</i> 46, no.7 (2019): 502-521.</p></li>
+        <li data-list-text="23."><p class="citations" id="23">Michelle Caswell, “Affective Bonds: What Community Archives Can Teach Mainstream Institutions,” in <i>Community Archives, Community Spaces: Heritage, Memory and Identity,</i> ed. Jeannette A. Bastian and Andrew Flinn (Facet, 2018), https://doi.org/10.29085/9781783303526.</p></li>
+        <li data-list-text="24."><p class="citations" id="24">Agostinho, “Archival Encounters,” 145-154.</p></li>
+        <li data-list-text="25."><p class="citations" id="25">Agostinho, “Archival Encounters,” 145-154.</p></li>
+        <li data-list-text="26."><p class="citations" id="26">Harriet E. Green, "Building from the Inside Out: Librarians as Nodes in Digital Scholarship," in <i>Libraries and Archives in the Digital Age,</i> ed. by Susan L. Mizruchi (Boston: Palgrave Macmillan, 2020), 186-187.</p></li>
+        <li data-list-text="27."><p class="citations" id="27">Daniel J. Cohen, “From Open Access to Maximal Access,” in <i>Libraries and Archives in the Digital Age,</i> ed. by Susan L. Mizruchi (Boston: Palgrave Macmillan, 2020), 30-31.</p></li>
+        <li data-list-text="28."><p class="citations" id="28">Cohen, “From Open Access to Maximal Access,” 30-31.</p></li>
+        <li data-list-text="29."><p class="citations" id="29">https://www.digitaltransgenderarchive.net/</p></li>
+        <li data-list-text="30."><p class="citations" id="30">Sarah Baker and Zelmarie Cantillon, “Zines as Community Archive,” <i>Archival Science</i> 22, no. 4 (December 2022): 539-61, https://doi.org/10.1007/s10502-022-09388-1.</p></li>
+        <li data-list-text="31."><p class="citations" id="31">https://scalar.usc.edu/works/primary-source-literacy---an-introduction/introduction?path=index</p></li>
+        <li data-list-text="32."><p class="citations" id="32">https://www.saada.org/browse</p></li>
+        <li data-list-text="33."><p class="citations" id="33">https://www.library.ucla.edu/help/services-resources/digital-projects-for-special-collections/</p></li>
+      </ol>
+    </div>
 
-    <div class="footer">
-      <p class="footer">laura.dintzis@gmail.com | 2023 | This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
-          </p>
+<div class="footer">
+  <p class="footer">laura.dintzis@gmail.com | 2023 | This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
+    </p>
     </div>
 </body>
+</html>

@@ -7,9 +7,10 @@ font-size: 50pt;
 
 h2{
 color: black;
-font-family: Monaco, monospace;
+font-family: courier, monospacef;
 padding-left: 20px;
 padding-top: 15px;
+padding-bottom: 10px;
 font-size: 18pt;
 font-weight: bold;
 }
@@ -17,13 +18,13 @@ font-weight: bold;
 p {padding-left: 20px;
   padding-right: 20px;
   color: black;
-  line-height: 1.7;
-  font-size: 14pt;
+  line-height: 1.8;
+  font-size: 12pt;
 }
 
 h3 {
 font-family: Monaco, monospace;
-font-size: 11;
+font-size: 14pt;
 padding-left: 20px;
 padding-bottom: 10px;
 }
@@ -39,7 +40,7 @@ padding-bottom: 10px;
 .plain-h {
 font-family: Tahoma, sans-serif;
 font-weight: bold;
-font-size: 14pt;
+font-size: 12pt;
 padding-left: 20px;
 color: black;
 padding-bottom: 0px;
